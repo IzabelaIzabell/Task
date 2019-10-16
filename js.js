@@ -87,12 +87,9 @@ console.log(countcodes2(1,2))
 //   ]
 
 //   getPossibleMoves= (letter, usedLetters) => {
-//     //zależnie od litery przekazanej do tej funkcji np ze START zwraca liste mozliwych ruchów dla tej litery
- 
- 
-//     let possibleMoves = [];
-//    let used = possibleMoves.some((val) => usedLetters.indexOf(val)!==-1)
-//     switch(letter) {
+//   let possibleMoves = [];
+//   let used = possibleMoves.some((val) => usedLetters.indexOf(val)!==-1)
+//    switch(letter) {
 //         case "A":
 //             possibleMoves.push("B", "D", "E")
 //             const used = possibleMoves.some((val) => usedLetters.indexOf(val)!==-1)
@@ -105,7 +102,7 @@ console.log(countcodes2(1,2))
 //             var index = possibleMoves.indexOf(used);
 //             possibleMoves.splice(index, 1)
 //             return possibleMoves;
-//             //dalej dla innych
+//             
 //     }
 // }
 //   countcodes = (start,length) => {
